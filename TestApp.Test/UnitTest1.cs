@@ -27,6 +27,12 @@ namespace TestApp.Test
 
         }
 
+        [Fact]
+        public void TestSum2()
+        {
+            Assert.Equal(5, TestApp.Console.Program.Sum(2, 3));
+        }
+
 
     }
 }
