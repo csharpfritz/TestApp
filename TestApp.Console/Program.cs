@@ -2,7 +2,7 @@
 
 namespace TestApp.Console
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -14,5 +14,14 @@ namespace TestApp.Console
 
 
         }
+
+        public static int Sum(int addendOne, int addendTwo)
+        {
+
+            return addendOne + addendOne;
+
+        }
+
+
     }
 }

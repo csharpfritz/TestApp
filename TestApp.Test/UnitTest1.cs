@@ -18,5 +18,15 @@ namespace TestApp.Test
             Assert.True(true, "True is not false");
 
         }
+
+        [Fact]
+        public void TestSum()
+        {
+
+            Assert.Equal(4, TestApp.Console.Program.Sum(2, 2));
+
+        }
+
+
     }
 }

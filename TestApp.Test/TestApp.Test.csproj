@@ -19,4 +19,7 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TestApp.Console\TestApp.Console.csproj" />
+  </ItemGroup>
 </Project>
