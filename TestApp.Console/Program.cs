@@ -18,7 +18,7 @@ namespace TestApp.Console
         public static int Sum(int addendOne, int addendTwo)
         {
 
-            return addendOne + addendOne;
+            return addendOne + addendTwo;
 
         }
 
