@@ -10,5 +10,13 @@ namespace TestApp.Test
         {
 
         }
+
+        [Fact]
+        public void TestFail()
+        {
+
+            Assert.False(true, "True is not false");
+
+        }
     }
 }
