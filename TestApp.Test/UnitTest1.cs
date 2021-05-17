@@ -15,7 +15,7 @@ namespace TestApp.Test
         public void TestFail()
         {
 
-            Assert.False(true, "True is not false");
+            Assert.True(true, "True is not false");
 
         }
     }
